@@ -82,7 +82,7 @@ class Apple:
     def draw(self):
         draw_block(screen, RED, self.position)
         font = pygame.font.Font(None, 24)
-        text = font.render(f"Score: {snake.score}", True, BLACK)  # 색상을 검은색으로 변경
+        text = font.render(f"Score: {snake.score}", True, BLACK)  
         screen.blit(text, (10, 10))
 
 
